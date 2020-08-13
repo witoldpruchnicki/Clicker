@@ -1,0 +1,24 @@
+.game {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 2fr 1fr;
+}
+
+.animation {
+  background-color: gray;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.stats {
+  background-color: #555;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: red;
+
+}
